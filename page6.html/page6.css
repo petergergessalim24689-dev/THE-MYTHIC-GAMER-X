@@ -1,0 +1,194 @@
+body {
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.header {
+    background-color: hwb(247 0% 0%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: -10px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.btn {
+    background-color: rgb(255, 21, 0);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.coll {
+    background-color: #ff2323;
+    border-radius: 30px;
+    padding: 5px 1px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 0;
+}
+
+.coll a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(134, 0, 0);
+}
+
+.game {
+    background-color: #5d0505;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 0;
+    justify-content: space-between;
+}
+
+.game a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.game-btn {
+    display: block;
+    text-align: center;
+    background: #5d0505;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.game-btn:hover {
+    background: #100b82;
+}
+
+.game:hover {
+    background-color: rgb(16, 11, 130);
+    justify-content: space-between;
+}
+
+.header-links a {
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover {
+    background-color: rgb(16, 11, 130);
+}
+
+.landing-page {
+    background-color: hwb(247 0% 0%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 50px 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.landing-page-left-section {
+    width: 850px;
+}
+
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 9px;
+}
+
+.landing-page-search button {
+    position: absolute;
+    left: 220px;
+    height: 30px;
+}
+
+.landing-page-image-container img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.treanding-container {
+    padding: 20px 20px;
+    margin: -15px;
+}
+
+.treanding-container h6 {
+    color: rgb(144, 0, 255);
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.treanding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.treanding h1 {
+    margin-top: -50px;
+    margin-bottom: -5px;
+}
+
+.h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.treanding-cards {
+    display: flex;
+    caption-side: 25px;
+    justify-content: left;
+
+}
+
+/* card.background-color: rgb(213, 210, 250); */
+.card {
+    background-color: rgb(213, 210, 250);
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-info img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .thumb {
+    display: flex;
+    border-radius: 20px 20px 0 0;
+}

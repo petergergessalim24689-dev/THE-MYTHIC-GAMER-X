@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.header {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.btn {
+    background-color: rgb(255, 21, 0);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.coll {
+    background-color: #ff2323;
+    border-radius: 30px;
+    padding: 5px 1px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 0;
+}
+
+.coll a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(134, 0, 0);
+}
+
+.game {
+    background-color: #5d0505;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 0;
+    justify-content: space-between;
+}
+
+.game a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.game-btn {
+    display: block;
+    text-align: center;
+    background: #5d0505;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.column-title {
+    grid-column: 1 / -1;
+    /* ياخد عرض كامل الصف */
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+    /* مسافة بين العنوان والفيديوهات */
+}
+
+.game-btn:hover {
+    background: #100b82;
+}
+
+.game:hover {
+    background-color: rgb(16, 11, 130);
+    justify-content: space-between;
+}
+
+.header-links a {
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover {
+    background-color: rgb(16, 11, 130);
+}
+
+/* الشبكة */
+.yt-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* الفيديو الرئيسي */
+.main-video video {
+    width: 50%;
+
+    border-radius: 12px;
+}
+
+.main-video h2 {
+    margin: 10px 0 5px;
+}
+
+.main-video p {
+    color: #aaa;
+}
+
+/* العمود الجانبي */
+.side-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* كارت الفيديو */
+.side-card {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.side-card video {
+    width: 120px;
+    height: 100px;
+    background: #333;
+    border-radius: 8px;
+}
+
+.side-card p {
+    font-size: 14px;
+    line-height: 1.3;
+}
